@@ -1,0 +1,3 @@
+The KH GA LISST toolbox requires the following:
+
+    - ArcGIS Pro, version 3.2 or newer

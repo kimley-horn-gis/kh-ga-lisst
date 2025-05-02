@@ -1,5 +1,6 @@
 """
 Author: Colin T. Stiles, GISP
+Version: 0.2
 Last Edited Date: 2025-05-01
 Description: This script is the only tool within the KH GA LISST toolbox.
 GA LISST is the acronym for the Georgia Low Impact for Solar Siting Tool. More information for the LISST can be found here
@@ -20,7 +21,7 @@ Args:
     output_folder (DEFolder, optional):
         Path to the folder where output files will be saved.
         If not provided, a folder named "ga_lisst_layers" will be created
-        in the project's home folder.  Defaults to None.
+        in the project's home folder. Defaults to None.
 
 Returns:
     GPFeatureLayer: The output polygon feature layer with acreage calculations for each LISST rank.
