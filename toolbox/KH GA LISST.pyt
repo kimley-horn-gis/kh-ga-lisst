@@ -126,7 +126,6 @@ class ProcessLISST(object):
                     arcpy.AddWarning("No project file found. Output files will be saved to a default location.")
             except Exception:
                 pass  # Fallback to default behavior if "CURRENT" fails
-
         return
 
     def updateMessages(self, parameters):
