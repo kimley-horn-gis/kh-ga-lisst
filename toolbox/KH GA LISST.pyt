@@ -24,7 +24,8 @@ Args:
         in the project's home folder. Defaults to None.
 
 Returns:
-    GPFeatureLayer: The output polygon feature layer with acreage calculations for each LISST rank.
+    ga_lisst_polygon (GPFeatureLayer):
+        The output polygon feature layer with acreage calculations for each LISST rank.
 """
 
 # Import system modules
@@ -36,7 +37,8 @@ class Toolbox:
     """Retrieve and process the GA LISST dataset."""
 
     def __init__(self):
-        """Define the tool's properties."""
+        """Define the toolbox (the name of the toolbox
+        is the name of the .pyt file)."""
         self.label = "GA LISST"
         self.alias = "GALISST"
         self.description = "Retrieves the Georgia Low Impact for Solar Siting Tool data for the input site boundary and calculates acreages for each rank."
@@ -69,7 +71,6 @@ class ProcessLISST(object):
         )
         param0.filter.list = ["Polygon"]  # Only allow polygons
         
-
         # Output folder (optional)
         param1 = arcpy.Parameter(
             displayName="Output Folder",
@@ -153,13 +154,13 @@ class ProcessLISST(object):
 
         if result is None:
             arcpy.AddError("LISST Processing failed.")
-            return  # Important: Exit if processing failed
+            return  # Exit if processing failed
         elif isinstance(result, dict) and "out_lisst_polygon" in result:
             # Correctly set the output parameter's value
             ga_lisst_polygon_param.value = result["out_lisst_polygon"]
         else:
             arcpy.AddError(f"Unexpected result type: {type(result)}. Check the get_lisst function.")
-            return  # Important: Exit if the result is unexpected
+            return  # Exit if the result is unexpected
 
     @staticmethod
     def get_project_home_folder():
