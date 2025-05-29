@@ -27,14 +27,14 @@ To use the GA LISST Toolbox:
 2.  Open ArcGIS Pro.
 3.  In the **Catalog** pane, right-click on **Folder** and select **Add Folder Connection** *(Ctrl+Shift+C)*.
 4.  Navigate to the location where you saved the `kh-ga-lisst` folder and select it. The `kh-ga-lisst` folder will now be available in your project.
-5.  In the **Catalog** pane, right-click on **Toolboxes** and select **Add Toolbox...**.
-6.  Navigate to the location where you saved the `.pyt` file and select it. The "GA LISST" toolbox will now be available in your project.
+5.  In the **Catalog** pane, right-click on **Toolboxes** and select **Add Toolbox**.
+6.  Navigate to the location where you saved the `.pyt` file and select it. The "KH GA LISST" toolbox will now be available in your project.
 
 <p align="center">
     <img src="pics/pyt.png" alt="The Python Toolbox in ArcGIS Pro" width="400">
 </p>
 
-## Tool: GA LISST
+## Python Toolbox: KH GA LISST
 
 This tool performs the core processing of the GA LISST data.
 
