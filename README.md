@@ -1,6 +1,8 @@
 # GA LISST Toolbox
 
-[![The GA LISST Data](pics/lisst_thumbnail.png)]
+<p align="center">
+    <img src="pics/lisst_thumbnail.png" alt="The GA LISST Data" width="400">
+</p>
 
 ## Overview
 
