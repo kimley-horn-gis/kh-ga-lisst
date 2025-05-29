@@ -1,6 +1,6 @@
 # GA LISST Toolbox
 
-![The GA LISST Data](C:\Users\colin.stiles\OneDrive - KH\GitHub\kh-ga-lisst\pics\lisst_thumbnail.png)
+[![The GA LISST Data](C:\Users\colin.stiles\OneDrive - KH\GitHub\kh-ga-lisst\pics\lisst_thumbnail.png)]
 
 ## Overview
 
