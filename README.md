@@ -1,5 +1,7 @@
 # GA LISST Toolbox
 
+![The GA LISST Data](C:\Users\colin.stiles\OneDrive - KH\GitHub\kh-ga-lisst\pics\lisst_thumbnail.png)
+
 ## Overview
 
 The **GA LISST Toolbox** is an ArcGIS Pro toolbox designed to process the Georgia Low Impact for Solar Siting Tool (GA LISST) data. This tool retrieves the GA LISST raster data from a REST service, converts it into a polygon layer, clips the dataset to a user-defined project boundary, and calculates the acreage for each of the LISST's suitability ranks within that boundary.
