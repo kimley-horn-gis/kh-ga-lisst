@@ -30,6 +30,10 @@ To use the GA LISST Toolbox:
 5.  In the **Catalog** pane, right-click on **Toolboxes** and select **Add Toolbox...**.
 6.  Navigate to the location where you saved the `.pyt` file and select it. The "GA LISST" toolbox will now be available in your project.
 
+<p align="center">
+    <img src="pics/pyt.png" alt="The Python Toolbox in ArcGIS Pro" width="400">
+</p>
+
 ## Tool: GA LISST
 
 This tool performs the core processing of the GA LISST data.
